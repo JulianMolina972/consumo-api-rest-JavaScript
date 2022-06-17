@@ -1,0 +1,26 @@
+
+body {
+  
+  margin: 0;
+  background-color: rgb(207, 204, 204);
+}
+
+main {
+  text-align: center;
+}
+
+main img {
+  width : 300px;
+  height : 300px;
+  margin: 20px auto;
+  border-radius: 30px;
+  
+}
+
+main .main--button {
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: cadetblue;
+  cursor: pointer;
+}
