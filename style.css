@@ -1,26 +1,49 @@
+*{
 
-body {
-  
   margin: 0;
-  background-color: rgb(207, 204, 204);
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
-main {
+
+
+main h1 {
   text-align: center;
+  font-size: 5rem;
 }
 
-main img {
+.title-randomDogs {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.imageDog {
   width : 300px;
   height : 300px;
-  margin: 20px auto;
   border-radius: 30px;
-  
+  /* display: block; */
 }
 
-main .main--button {
+.main--randomDogs{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 10px 40px 10px;
+  
+
+}
+
+.main--button {
   width: 300px;
   height: 30px;
   border-radius: 15px;
   background-color: cadetblue;
   cursor: pointer;
+  /* margin-bottom: 30px; */
+  /* display: block; */
+
 }

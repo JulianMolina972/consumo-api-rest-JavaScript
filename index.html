@@ -9,13 +9,33 @@
 </head>
 <body>
   <main>
-    <h1>Random dogs</h1>
-    <section>
-      <img id="img1" alt="random dog photo">
-      <img id="img2" alt="random dog photo">
-      <img id="img3" alt="random dog photo">
+    <h1>Dogs app</h1>
+
+
+    <section id="randomDogs" >
+      <h2 class="title-randomDogs">Randoms Dogs</h2>
+      <article class="main--randomDogs" >
+        <img class="imageDog" id="img1" alt="random dog photo">
+        <button class="main--button">Save dog in favorites</button>
+      </article>
+      <article class="main--randomDogs">
+        <img class="imageDog" id="img2" alt="random dog photo">
+        <button class="main--button">Save dog in favorites</button>
+      </article>
+      <article class="main--randomDogs">
+        <img class="imageDog" id="img3" alt="random dog photo">
+        <button class="main--button">Save dog in favorites</button>
+      </article>
+
     </section>
-    <button type="button" class="main--button">Other dog</button>
+    <h2>Favorites Dogs</h2>
+    <section id="favoritesDogs">
+      <article class="main--randomDogs">
+        <img class="imageDog" id="img3" alt="random dog photo">
+        <button>take out dog in favorites</button>
+      </article>
+    </section>
+    <button type="button"  class="main--button">Other dog</button>
     
   </main>
   <script src="./index.js"></script>
