@@ -30,6 +30,21 @@
         <button id="btn3"  class="main--button">Save dog in favorites</button>
       </article>
 
+      <section id="uploadingDog">
+        <h2>Upload your Dog's photo</h2>
+  
+        <form id="uploadForm">
+          <label for="file" class="custom-file-upload">Select photo<i class="fa-solid fa-camera"></i></label>
+          <input id="file" type="file" name="file"  onchange="previewImage()" />
+          <img id="preview" src="" alt="Photo preview">
+          <button type="button" onclick="uploadDogPhoto()" >Upload dog photo<i class="fa-solid fa-paper-plane"></i></button>
+        
+        </form>
+      </section>
+
+      
+    
+
     </section>
     <section id="favoritesDogs">
       <h2>Favorites Dogs</h2>
@@ -39,9 +54,11 @@
         <button>take out dog in favorites</button>
       </article>
     </section>
+
     
     
   </main>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="./index.js"></script>
 </body>
 </html>
